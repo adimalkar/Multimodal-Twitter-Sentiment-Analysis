@@ -34,6 +34,7 @@ The objective of this project is to analyze sentiments of tweets using both trad
 ├── Sentiment_Analysis_SVM.ipynb                 # SVM model implementation
 ├── Sentiment_Analysis_Decision_Tree.ipynb        # Decision Tree implementation
 ├── Sentiment_Analysis_LSTM_modified.ipynb        # Bi-LSTM model implementation with GloVe
-├── Sentiment_Analysis_BART.ipynb                 # BART model implementation
+└── Sentiment_Analysis_BART.ipynb                 # BART model implementation
+
 
 
