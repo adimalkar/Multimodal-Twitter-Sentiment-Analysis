@@ -58,3 +58,16 @@
     </ul>
   </li>
 </ul>
+
+<h2 id="dataset">Dataset</h2>
+<ul>
+  <li><strong>tweets.csv:</strong> A CSV file containing 1.6 million tweets with corresponding sentiment labels (positive, negative, neutral).</li>
+  <li><strong>glove.6B.100d.txt:</strong> Pre-trained GloVe word embeddings with a 100-dimensional vector space.</li>
+</ul>
+<p><strong>Dataset Link:</strong> You can download the dataset from <a href="https://drive.google.com/drive/folders/1wm48DA5C-uvGN5FBz8DuptPT4iSDg5PP?usp=drive_link" target="_blank">Google Drive</a>.</p>
+<p><strong>Dataset Fields:</strong></p>
+<ul>
+  <li><code>tweet_id</code>: Unique identifier for each tweet.</li>
+  <li><code>text</code>: The tweet's content.</li>
+  <li><code>sentiment</code>: The sentiment label (positive, negative, neutral).</li>
+</ul>
