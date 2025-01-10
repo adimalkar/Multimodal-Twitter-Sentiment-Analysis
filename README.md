@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Multimodal-Twitter-Sentiment-Analysis</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; }
-    h1, h2 { color: #2C3E50; }
-    ul { margin: 0 0 1em 1em; }
-    code { background-color: #f5f5f5; padding: 0.2em 0.4em; border-radius: 3px; }
-  </style>
-</head>
-<body>
-
 <h1>Multimodal-Twitter-Sentiment-Analysis</h1>
 
 <p>This repository contains the implementation of a multimodal Twitter Sentiment Analysis project aimed at classifying sentiments from tweets. The project uses multiple machine learning and deep learning models, including <strong>SVM</strong>, <strong>Decision Tree</strong>, <strong>Bi-LSTM</strong>, and <strong>BART</strong>. It also leverages <strong>GloVe embeddings</strong> for richer semantic understanding of the tweets.</p>
