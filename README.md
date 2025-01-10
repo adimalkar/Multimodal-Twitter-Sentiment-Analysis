@@ -23,3 +23,17 @@ The objective of this project is to analyze sentiments of tweets using both trad
 * Preprocessing and tokenization using GloVe embeddings.
 * Comparative performance of SVM, Decision Tree, Bi-LSTM, and BART models.
 
+### Project Structure
+📁 Multimodal-Twitter-Sentiment-Analysis/
+│
+├── 📁 Dataset/                          # Contains the dataset files
+│   ├── tweets.csv                       # Main dataset of tweets (2.33 GB)
+│   └── glove.6B.100d.txt                 # GloVe embeddings (100D, pre-trained)
+│
+├── Sentiment_Analysis_Data_Visualization.ipynb  # Jupyter notebook for data exploration and visualizations
+├── Sentiment_Analysis_SVM.ipynb                 # SVM model implementation
+├── Sentiment_Analysis_Decision_Tree.ipynb        # Decision Tree implementation
+├── Sentiment_Analysis_LSTM_modified.ipynb        # Bi-LSTM model implementation with GloVe
+├── Sentiment_Analysis_BART.ipynb                 # BART model implementation
+
+
