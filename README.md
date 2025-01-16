@@ -54,5 +54,5 @@
 <ul>
   <li><code>tweet_id</code>: Unique identifier for each tweet.</li>
   <li><code>text</code>: The tweet's content.</li>
-  <li><code>sentiment</code>: The sentiment label (positive, negative, neutral).</li>
+  <li><code>sentiment</code>: The sentiment label (positive, negative).</li>
 </ul>
