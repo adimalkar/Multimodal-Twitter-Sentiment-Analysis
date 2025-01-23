@@ -56,3 +56,39 @@
   <li><code>text</code>: The tweet's content.</li>
   <li><code>sentiment</code>: The sentiment label (positive, negative).</li>
 </ul>
+
+<h2 id="preprocessing-and-embeddings">Preprocessing and Embeddings</h2>
+<ul>
+  <li><strong>Text Cleaning:</strong> Removing URLs, mentions, hashtags, and special characters.</li>
+  <li><strong>Tokenization and Padding:</strong> Converting tweets to sequences of tokens.</li>
+  <li><strong>Embedding Layer:</strong> Loading GloVe 100D embeddings to create dense vector representations of words.</li>
+</ul>
+
+<h2 id="models-implemented">Models Implemented</h2>
+<ol>
+  <li><strong>Support Vector Machine (SVM)</strong>
+    <ul>
+      <li>A traditional machine learning classifier used as a baseline.</li>
+      <li>Implemented in <code>Sentiment_Analysis_SVM.ipynb</code>.</li>
+    </ul>
+  </li>
+  <li><strong>Decision Tree</strong>
+    <ul>
+      <li>Simple tree-based model for sentiment classification.</li>
+      <li>Implemented in <code>Sentiment_Analysis_Decision_Tree.ipynb</code>.</li>
+    </ul>
+  </li>
+  <li><strong>Bidirectional LSTM (Bi-LSTM)</strong>
+    <ul>
+      <li>Captures long-term dependencies and context in tweets.</li>
+      <li>Uses GloVe embeddings for initialization.</li>
+      <li>Implemented in <code>Sentiment_Analysis_LSTM_modified.ipynb</code>.</li>
+    </ul>
+  </li>
+  <li><strong>BART (Bidirectional and Auto-Regressive Transformer)</strong>
+    <ul>
+      <li>A transformer-based model for robust sentiment classification.</li>
+      <li>Implemented in <code>Sentiment_Analysis_BART.ipynb</code>.</li>
+    </ul>
+  </li>
+</ol>
