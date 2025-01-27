@@ -92,3 +92,33 @@
     </ul>
   </li>
 </ol>
+
+<h2 id="installation">Installation</h2>
+<ol>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/your_username/Multimodal-Twitter-Sentiment-Analysis.git
+cd Multimodal-Twitter-Sentiment-Analysis
+    </code></pre>
+  </li>
+  <li>Create a virtual environment:
+    <pre><code>python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+    </code></pre>
+  </li>
+  <li>Install dependencies:
+    <pre><code>pip install -r requirements.txt
+    </code></pre>
+  </li>
+</ol>
+
+<h2 id="usage">Usage</h2>
+<p>To open Jupyter notebooks for training models:</p>
+<pre><code>jupyter notebook
+</code></pre>
+<p>Then open any of the following notebooks:</p>
+<ul>
+  <li><code>Sentiment_Analysis_SVM.ipynb</code></li>
+  <li><code>Sentiment_Analysis_Decision_Tree.ipynb</code></li>
+  <li><code>Sentiment_Analysis_LSTM_modified.ipynb</code></li>
+  <li><code>Sentiment_Analysis_BART.ipynb</code></li>
+</ul>
