@@ -34,13 +34,17 @@ class TweetPreprocessor:
         if not isinstance(text, str):
             return ""
             
-        # 1. Remove URLs
-        cleaned = self.url_pattern.sub('', text)
+        # 1. Unescape HTML entities (&amp; -> &)
+        import html
+        cleaned = html.unescape(text)
+
+        # 2. Remove URLs
+        cleaned = self.url_pattern.sub('', cleaned)
         
-        # 2. Remove User Mentions (@user)
+        # 3. Remove User Mentions (@user)
         cleaned = self.mention_pattern.sub('', cleaned)
         
-        # 3. Handle Hashtags (#happy -> happy)
+        # 4. Handle Hashtags (#happy -> happy)
         if self.preserve_hashtags:
             cleaned = self.hashtag_pattern.sub(r'\1', cleaned)
         else:
